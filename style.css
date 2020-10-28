@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.profile {
+    width: 300px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+#welcome {
+    background-image: url(valentines-day-desktop-wallpaper.jpg);
+    background-size: cover;
+    text-align: center;
+
+    .parallax-inner {
+        display: table-cell;
+        position: relative;
+        text-align: center;
+        vertical-align: middle;
+        width: 20%;
+        height: 20%;
+    }
